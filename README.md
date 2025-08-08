@@ -37,20 +37,20 @@ Cleaned dataset by removing irrelevant columns (e.g., father’s age), imputing 
 - T-tests, Chi-square tests, and ANOVA to identify significant relationships between predictors and baby weight category.
 
 -----
-## Feature Selection:
+## 4. Feature Selection:
 - Chi-Square (SelectKBest) for univariate importance.
 - Recursive Feature Elimination (RFE) with Logistic Regression.
 - Extra Trees Classifier for ensemble-based ranking.
 
 -----
-## Modeling:
+## 5. Modeling:
 - Logistic Regression – Baseline model for interpretability.
 - Random Forest – For capturing non-linear patterns and interactions.
 - Support Vector Machine (SVM) – For optimal class separation in high-dimensional space.
 - XGBoost – Gradient boosting for enhanced accuracy.
 
 ----
-## Model Evaluation:
+## 6. Model Evaluation:
 - Accuracy, Precision, Recall, F1-Score, AUC-ROC.
 - 5-fold cross-validation for performance stability.
 
